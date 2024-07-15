@@ -42,7 +42,7 @@ changelog:
       - '^docs:'
       - '^test:'
 brews:
-  - tap:
+  - repository:
       owner: taxintt
       name: homebrew-tap
       token: "{{ .Env.TAP_GITHUB_TOKEN }}"
